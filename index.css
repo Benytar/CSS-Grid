@@ -16,16 +16,35 @@ main {
   flex-direction: row;
   width: 50vw;
   min-height: 100vh;
+  
 }
 div {
-  padding: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  height: 50vh;
+  border-radius: 3px;
+  
 }
+/* divided the whole content into 3 ad gave them equal height in the main tag */
+.top{
+  height: 10vh;
+  padding: 40px;
+  
+}
+.middle{
+  height: 10vh;
+  padding: 40px;
+  padding-top: 0px;
+}
+.bottom{
+  height: 10vh;
+  padding: 40px;
+  padding-top: 0px;
+}
+/* background color and button color */
 #one,
 .one {
   background-color: hsl(31, 77%, 52%);
   color: hsl(31, 77%, 52%);
+  
 }
 #two,
 .two {
@@ -37,15 +56,18 @@ div {
   background-color: hsl(179, 100%, 13%);
   color: hsl(179, 100%, 13%);
 }
+/* header color */
 h1,
 button {
   color: hsl(0, 0%, 95%);
   border: transparent;
 }
+/* text color */
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  padding-top: 30px;
+  
 }
+/* button designs */
 .one,
 .two,
 .three {
@@ -57,4 +79,7 @@ p {
 }
 button {
   margin-top: 70px;
+}
+img{
+  padding-bottom: 30px;
 }
